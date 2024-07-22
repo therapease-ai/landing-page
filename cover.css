@@ -3,6 +3,7 @@
  */
 
 
+
 /* Custom default button */
 .btn-light,
 .btn-light:hover,
@@ -40,16 +41,17 @@ body {
 }
 
 .section {
-  max-width: 1080;
+  max-width: 1080px;
   margin: auto;
   margin-top: 100px;
 }
 
 .section-main-img {
-  margin: auto;
+  margin-left: 0px;
+  padding: 0px;
   margin-top: 25px;
   max-width: 1080px;
-  background: url(assets/images/image.png) left top no-repeat;
+  background: url(assets/images/image.png);
   background-size: 1080px auto;
   box-shadow: 1px 1px 20px 20px #212529 inset, -1px -1px 10px 1px #212529 inset; 
   width: 1080px;
@@ -113,7 +115,8 @@ body {
 }
 
 .highlight {
-  color: rgba(73, 213, 255, 0.7)
+  color: #FF707A;
+  /*color: rgba(73, 213, 255, 0.7);*/
 }
 
 
