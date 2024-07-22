@@ -11,32 +11,72 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-.custom-header {
+.btn-primary {
+  color: #fff;
+  background-color: rgba(73, 213, 255, 0.2); /* Transparent background color */
   border: 1px solid #737373; /* Light border color */
   border-radius: 12px; /* Rounded edges */
-  padding: 12px 40px; /* Optional padding */
+  padding: 5px 10px; /* Vertical and horizontal padding */
+  text-decoration: none; /* Remove underline */
+  border-radius: 12px; /* Rounded edges */
 }
 
+.btn-primary:hover {
+  background-color: rgba(73, 213, 255, 0.35); /* Transparent background color */
+  border: 1px solid #737373; /* Light border color */
+}
 
 /*
  * Base structure
  */
 
 body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  text-shadow: 0 .05rem .1rem #212529;
+  box-shadow: inset 0 0 5rem #212529;
 }
 
 .cover-container {
-  max-width: 720px;
+  max-width: 1080px;
 }
+
+.section {
+  max-width: 1080;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.section-main-img {
+  margin: auto;
+  margin-top: 25px;
+  max-width: 1080px;
+  background: url(assets/images/image.png) left top no-repeat;
+  background-size: 1080px auto;
+  box-shadow: 1px 1px 20px 20px #212529 inset, -1px -1px 10px 1px #212529 inset; 
+  width: 1080px;
+  height: 100%;
+}
+
+.section-small {
+  max-width: 720px;
+  margin: auto;
+  margin-top: 100px;
+}
+
 
 
 /*
  * Header
  */
 
- .nav-link-btn {
+ .custom-header {
+  border: 1px solid #737373; /* Light border color */
+  border-radius: 12px; /* Rounded edges */
+  padding: 12px 40px; /* Optional padding */
+  width: 720px;
+  margin: 0px auto;
+}
+
+.nav-link-btn {
   color: #fff;
   background-color: rgba(73, 213, 255, 0.2); /* Transparent background color */
   border: 1px solid #737373; /* Light border color */
@@ -44,7 +84,14 @@ body {
   padding: 5px 10px; /* Vertical and horizontal padding */
   margin-left: 2rem;
   text-decoration: none; /* Remove underline */
+  border-radius: 12px; /* Rounded edges */
 }
+
+.nav-link-btn:hover {
+  background-color: rgba(73, 213, 255, 0.35); /* Transparent background color */
+  border: 1px solid #737373; /* Light border color */
+}
+
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
@@ -69,3 +116,13 @@ body {
   color: rgba(73, 213, 255, 0.7)
 }
 
+
+/*
+ * Footer
+ */
+
+.custom-footer {
+  width: 720px;
+  margin: auto;
+  margin-top: 100px;
+}
